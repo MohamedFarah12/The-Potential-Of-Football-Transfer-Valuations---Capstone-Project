@@ -44,26 +44,54 @@ The primary dataset used for this project is sourced from Kaggle and was origina
 **Granular Data Description:**
 The dataset comprises the following columns, each with its data type and description:
 
-- `player_id (int64)`: A unique identifier for each football player.
-- `last_season_x (int64)`: The last season the player participated in.
-- `country_of_citizenship (object)`: The player's country of citizenship.
-- `date_of_birth (datetime64)`: The player's date of birth.
-- `sub_position (object)`: The specific position the player plays within a broader position category.
-- `position (object)`: The player's primary playing position (e.g., forward, midfielder, defender).
-- `foot (object)`: The preferred foot for playing (e.g., left, right).
-- `height_in_cm (float64)`: The player's height in centimetres.
-- `market_value_in_eur_y (int64)`: The market value of the player in euros, which serves as the target variable for analysis.
-- `highest_market_value_in_eur (float64)`: The player's highest market value in euros.
-- `current_club_name (object)`: The name of the player's current club.
-- `date (datetime64)`: A date associated with the player's record.
-- `age (int32)`: The player's age, calculated from their date of birth.
-- `contract_days_left (int64)`: The number of days left on the player's current contract.
-- `year (int64)`: The year associated with the player's record.
-- `goals (int32)`: The number of goals scored by the player in that year.
-- `assists (int32)`: The number of assists made by the player in that year.
-- `yellow_cards (int32)`: The number of yellow cards received by the player in that year.
-- `red_cards (int32)`: The number of red cards received by the player in that year.
-- `minutes_played (int32)`: The total number of minutes the player has played in that year.
+Data Dictionary
+player_id (int64): A unique identifier for each football player.
+
+last_season_x (int64): The last season the player participated in.
+
+country_of_citizenship (object): The player's country of citizenship.
+
+position (object): The player's primary playing position (e.g., forward, midfielder, defender).
+
+sub_position (object): The specific position the player plays within a broader position category.
+
+foot (object): The preferred foot for playing (e.g., left, right).
+
+height_in_cm (float64): The player's height in centimeters.
+
+market_value_in_eur (int64): The market value of the player in euros, which is the target variable for your analysis.
+
+highest_market_value_in_eur (float64): The player's highest market value in euros.
+
+most_recent_club_id (object): The ID of the player's most recent club.
+
+date (datetime64): A date associated with the player's record.
+
+age (int32): The player's age, calculated from their date of birth.
+
+contract_days_left (int64): The number of days left on the player's current contract.
+
+year (int64): The year associated with the player's record.
+
+goals (int32): The number of goals scored by the player that year.
+
+assists (int32): The number of assists made by the player that year.
+
+yellow_cards (int32): The number of yellow cards received by the player that year.
+
+red_cards (int32): The number of red cards received by the player that year.
+
+minutes_played (int32): The total number of minutes the player has played that year.
+
+net_transfer_record (float64): The net transfer record of that specific club.
+
+national_team_players (int32): The number of national team players for that specific club.
+
+month (int64): The month associated with the player's record.
+
+player_club_id (int64): The ID of the player's club.
+
+league_id (object): The ID of the league.
 
 ## Credits & References
 
