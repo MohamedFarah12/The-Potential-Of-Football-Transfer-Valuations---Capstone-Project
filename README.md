@@ -20,8 +20,11 @@ Precise valuation of football transfer fees is not only crucial for the financia
 
 ## Project Flowchart
 
-...
+My Project Flowchart: 
+![Flowchart](images/flowchart.png)
 
+
+**
 ## Project Organisation
 
 The project repository is structured as follows:
@@ -35,6 +38,7 @@ The project repository is structured as follows:
 - `.gitignore`: This file specifies files and folders to be ignored by Git version control.
 - `capstone_env.yml`: The Conda environment specification is provided in this file.
 - `Makefile`: Automation scripts for the project are included in this file.
+- `images`: This folder will contain images.
 
 ## Dataset
 
