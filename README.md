@@ -29,11 +29,9 @@ My Project Flowchart:
 
 The project repository is structured as follows:
 
-- `data`: This folder contains a link to the dataset and may include any saved aggregated or processed data (if applicable).
 - `model`: This folder stores a joblib dump of the final model or model object.
 - `notebooks`: You can find all the final notebooks that played a role in the project in this folder.
 - `reports`: The final project report summarising the analysis can be found here.
-- `references`: This folder contains credits and references to relevant sources that contributed to the project.
 - `src`: The refactored project source code can be accessed here.
 - `.gitignore`: This file specifies files and folders to be ignored by Git version control.
 - `capstone_env.yml`: The Conda environment specification is provided in this file.
